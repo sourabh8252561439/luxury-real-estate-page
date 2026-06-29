@@ -1,57 +1,61 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- 🔥 CORE SEO -->
-  <title>Skyline Heights — Luxury Waterfront Residences</title>
-  <meta name="description" content="Skyline Heights offers ultra-luxury waterfront residences with modern architecture, premium amenities, and breathtaking views. Explore premium real estate investment opportunities." />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://luxury-real-estate-page.vercel.app/" />
+    <!-- 🔥 SEO CORE -->
+    <title>Skyline Heights — Luxury Waterfront Residences | Premium Real Estate</title>
+    <meta name="description" content="Luxury waterfront residences with modern design, premium amenities and investment opportunities." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://luxury-real-estate-page.vercel.app/" />
 
-  <!-- 🌍 OPEN GRAPH (SOCIAL SEO) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Skyline Heights — Luxury Waterfront Residences" />
-  <meta property="og:description" content="Discover luxury waterfront homes with world-class design, comfort, and investment value." />
-  <meta property="og:url" content="https://luxury-real-estate-page.vercel.app/" />
-  <meta property="og:image" content="https://luxury-real-estate-page.vercel.app/og.jpg" />
+    <!-- 🌍 OPEN GRAPH -->
+    <meta property="og:title" content="Skyline Heights — Luxury Waterfront Residences" />
+    <meta property="og:description" content="Premium waterfront luxury homes with world-class lifestyle." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://luxury-real-estate-page.vercel.app/" />
 
-  <!-- 🐦 TWITTER CARDS -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Skyline Heights — Luxury Waterfront Residences" />
-  <meta name="twitter:description" content="Premium waterfront residences with modern luxury lifestyle." />
-  <meta name="twitter:image" content="https://luxury-real-estate-page.vercel.app/og.jpg" />
+    <!-- 🐦 TWITTER -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Skyline Heights — Luxury Waterfront Residences" />
+    <meta name="twitter:description" content="Luxury real estate investment opportunities." />
 
-  <!-- ⭐ FAVICON -->
-  <link rel="icon" href="/favicon.ico" />
+    <!-- ⭐ FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
 
-  <!-- ⚡ PERFORMANCE -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+    <!-- 📊 GOOGLE ANALYTICS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TW9BRK99D1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TW9BRK99D1');
+    </script>
 
-  <!-- 📊 GOOGLE ANALYTICS -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TW9BRK99D1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TW9BRK99D1');
-  </script>
+    <!-- 💰 ADSENSE (ONLY ONE - SAFE) -->
+    <script async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3129438098804302"
+      crossorigin="anonymous">
+    </script>
 
-  <!-- 💰 ADSENSE (SAFE - SINGLE NETWORK ONLY) -->
-  <script async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3129438098804302"
-    crossorigin="anonymous">
-  </script>
+    <!-- 🔥 STRUCTURED DATA (SEO BOOST) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Skyline Heights",
+      "url": "https://luxury-real-estate-page.vercel.app/",
+      "description": "Luxury waterfront residences with premium amenities and modern design."
+    }
+    </script>
 
-  <!-- 🔥 STRUCTURED DATA (SEO BOOST) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Skyline Heights",
-    "url": "https://luxury-real-estate-page.vercel.app/",
-    "description": "Luxury waterfront residences with premium amenities and modern design."
-  }
-  </script>
-</head>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
